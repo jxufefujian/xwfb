@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/common.master" AutoEventWireup="true" CodeFile="m_common.master.cs" Inherits="m_common" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+        <link href="css/manager_common.css" rel="stylesheet" />
+    <script src="Scripts/jquery.js"></script>
+    <script src="Scripts/edittable.js"></script>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+      <div id="m_category" class="round2">
+        <h3>管理中心</h3>
+        <div class="con">
+                 <p><a href="categorymanager.aspx"> 类别管理</a></p> 
+                 <p><a href="newsmanager.aspx"> 新闻管理</a></p> 
+                 <p><a href="addnews.aspx"> 添加新闻</a></p>              
+        </div>
+        <div class="footer"><p> &nbsp;</p></div>
+          </div>
+       <asp:ContentPlaceHolder id="M_ContentPlaceHolder" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+</asp:Content>
+

@@ -1,0 +1,202 @@
+﻿
+* {   /* 把默认值都设置为0 */
+    margin:0;
+    padding:0; 
+}
+body {
+    font-size: 14px;
+}
+a:link,a:visited {
+    /* 鼠标未移上去的超链接的样式, 超链接访问后的样式 */
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    /* 鼠标移到超链接上的样式 */
+    color: #00f;
+    text-decoration: underline;
+}
+#top, #search, #main, #footer {   /* 公共样式 */
+   margin: 10px auto 10px auto;
+   width: 760px;
+}
+#top{   /* 顶部样式 */
+    height: 120px;   
+}
+#top img {
+    /* 頂部图片样式 */
+    float: left;
+    border-width: 0;
+}
+#search {  /* 搜索样式 */
+     height: 27px;
+}
+#footer {   /* 尾部样式 */
+   text-align: center; 
+   border-top: 1px solid #D6D7D6;
+   padding-top: 10px;
+   clear: left;
+}
+.txtKey {   /* 搜索关键字文本框样式 */
+    border: 1px solid #9CCFFF;
+    background-color: #EFF7FF;
+    height: 25px;
+    line-height: 25px;
+    width: 450px;
+    font-size: 16px;
+}
+.searchbtn { /* 搜索按钮的样式 */
+    background-image: url("../images/search.gif");
+    background-repeat: no-repeat;
+    width: 103px;
+    height: 33px;
+    border-style: none;
+    background-color: #fff;
+}
+input {
+    vertical-align: middle;
+}
+
+ul,li {  /* 项目列表样式 */
+    list-style-type:none;
+}
+li {
+    text-align: center;
+    margin: 20px;
+}
+li a:link, li a:visited {
+    /* 分类名称样式 */
+    color: #00f;
+    text-decoration: underline;
+    font-weight: bold;
+}
+li a:hover {
+    color: #f00;
+}
+
+.commonfrm {
+    /* 框架公共样式 */
+    border:1px solid #DEDFDE;
+    float: left;
+    width: 560px;
+}
+.commonfrm h4 {
+    /* 框架标题样式 */
+    color: #fff;
+    background-color: #7BAEEF;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.commonfrm table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;  /* 细线表格 */
+}
+.commonfrm table tr th, .commonfrm table tr td{
+    padding: 5px;
+}
+.commonfrm .th_category {  /* 表格中类别名称的宽度 */
+    width: 100px;
+}
+.commonfrm .th_time {  /* 表格中发布时间的宽度 */
+    width: 150px;
+}
+.commonfrm .td_category {
+    color: #999;
+}
+.commonfrm .td_time {
+    color: #999;
+    font-size: 12px;
+}
+#category {
+    /* 新闻分类框架 */
+    width: 180px;
+    height: 368px !important; height: 382px;
+    margin-right:5px;
+    margin-bottom: 10px;
+}
+#newnews {
+    /* 最新新闻框架 */   
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+#hotnews {
+    /* 热点新闻框架 */
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+#newslist {
+    /* 新闻列表框架 */
+    margin-left: 10px;
+}
+#searchres {
+    /* 搜索结果框架 */
+    width: 760px;
+    margin-bottom: 10px;
+}
+#newscontent {
+    /* 新闻内容框架 */
+    width: 760px;
+    margin-bottom: 10px;
+}
+#newscontent p, .replay p {
+    margin: 10px 20px;
+}
+#newscontent .con {
+    text-indent: 2em;  /* 让段落首行缩进２个字符 */
+    line-height: 20px; /* 行间距 */
+}
+#newscontent .con_time, .replay .replay_info {
+    float:right;
+    font-size: 12px;
+    color: #888;
+}
+#newscontent a:link, #newscontent a:visited {
+    background-color: #EFF7FF;
+    border: 1px solid #428EFF;
+    width: 70px;
+    height: 25px;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    margin-left: 20px;
+    color: #0059BD;
+    text-decoration: none;
+}
+#newsreplay {
+    /* 评论内容框架 */
+    width: 760px;
+    margin-bottom: 10px;  
+}
+.replay {
+    margin-bottom: 10px;
+}
+.replay hr {
+    width: 650px; 
+    clear: right;
+    margin-left: auto;
+    margin-right: auto;
+}
+.addcomment{
+    /* 发表评论 */
+    width: 760px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid #D6D7D6;  
+    background-color: #F7F7F7;
+    clear: both;
+}
+.addcomment .comment_con {
+    width: 600px;
+    height: 250px;
+    margin-bottom: 5px;
+    margin-top: 5px !important;   /* 非IE核心浏览器识别 */
+    *margin-top: 10px !important;  /* 仅ie6,7,8识别 */
+    _margin-top: 10px;  /* 仅ie6识别 */
+}
+.addcomment .txtcode {
+    width: 50px;
+}

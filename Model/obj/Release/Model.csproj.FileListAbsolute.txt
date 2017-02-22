@@ -1,0 +1,4 @@
+D:\VSworkspace\xwfb\Model\bin\Release\Model.dll
+D:\VSworkspace\xwfb\Model\bin\Release\Model.pdb
+D:\VSworkspace\xwfb\Model\obj\Release\Model.dll
+D:\VSworkspace\xwfb\Model\obj\Release\Model.pdb

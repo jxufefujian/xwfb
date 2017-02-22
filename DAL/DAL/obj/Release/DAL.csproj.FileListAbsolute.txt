@@ -1,0 +1,8 @@
+D:\VSworkspace\xwfb\DAL\DAL\bin\Release\DAL.dll
+D:\VSworkspace\xwfb\DAL\DAL\bin\Release\DAL.pdb
+D:\VSworkspace\xwfb\DAL\DAL\bin\Release\Model.dll
+D:\VSworkspace\xwfb\DAL\DAL\bin\Release\MySql.Data.dll
+D:\VSworkspace\xwfb\DAL\DAL\bin\Release\Model.pdb
+D:\VSworkspace\xwfb\DAL\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+D:\VSworkspace\xwfb\DAL\DAL\obj\Release\DAL.dll
+D:\VSworkspace\xwfb\DAL\DAL\obj\Release\DAL.pdb

@@ -1,0 +1,10 @@
+D:\VSworkspace\xwfb\BLL\bin\Release\BLL.dll
+D:\VSworkspace\xwfb\BLL\bin\Release\BLL.pdb
+D:\VSworkspace\xwfb\BLL\bin\Release\DAL.dll
+D:\VSworkspace\xwfb\BLL\bin\Release\Model.dll
+D:\VSworkspace\xwfb\BLL\bin\Release\MySql.Data.dll
+D:\VSworkspace\xwfb\BLL\bin\Release\DAL.pdb
+D:\VSworkspace\xwfb\BLL\bin\Release\Model.pdb
+D:\VSworkspace\xwfb\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+D:\VSworkspace\xwfb\BLL\obj\Release\BLL.dll
+D:\VSworkspace\xwfb\BLL\obj\Release\BLL.pdb

@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="common.master.cs" Inherits="common" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>首页-新闻发布系统</title>
+    <link href="css/common.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <div id ="top">
+        <a  href="Default.aspx">
+            <img src="images/niunanlogo.jpg" /><img src="images/jxufe.gif" />
+       </a>
+    </div>
+        <div id="search">
+            搜索条件
+            <asp:RadioButton ID="radTitle" GroupName="cond" runat="server" Text="标题" Checked="true" />
+            <asp:RadioButton ID="radContent"  GroupName="cond"  runat="server" Text="内容"/>
+              <asp:TextBox ID="txtKey" runat="server" CssClass="txtKey"></asp:TextBox>
+            <asp:Button ID="Button1"   UseSubmitBehavior="false" runat="server" Text="" CssClass="searchbtn" OnClick="Button1_Click"/>
+
+        </div> 
+        <div id="main">
+             <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">      
+        </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer">
+            版权所有: 付建
+        </div>
+    </form>
+</body>
+</html>
+      

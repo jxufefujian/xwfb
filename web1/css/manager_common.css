@@ -1,0 +1,115 @@
+﻿
+ * {
+    margin: 0;
+    padding: 0;
+ }
+body {
+    font-size: 14px;
+}
+
+/* 管理中心栏目样式 */
+#m_category {
+    width: 200px;
+    margin-right: 10px;
+    float: left;
+}
+#m_category .con {
+     height: 300px;
+}
+#m_category .con p {
+    margin: 20px 50px;   
+}
+
+/*　类别管理样式　*/
+#camanager {
+    width: 550px;
+    float: left;
+}
+#addca {
+    width: 550px;
+    float: left;
+}
+
+/* 新闻管理样式 */
+#newsmanager {
+    width: 550px;
+    float: left;
+}
+
+/* 添加新闻样式 */
+#addnews {
+    width: 550px;
+    float: left;
+}
+#addnews .con p {
+    margin: 5px;
+    margin-left: 30px;
+}
+.newstitle {
+    width: 380px;
+}
+.newscontent {
+    width: 450px;
+    height: 200px;
+}
+
+/*　可变宽度的圆角框样式　*/
+.round2 {
+    background-image: url("../images/round2_left_top.gif");
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.round2 h3 {
+    background: url("../images/round2_right_top.gif") no-repeat top right;
+    padding-left: 35px;
+    padding-top: 12px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.round2 .con {
+     background: url("../images/round2_right_middle.gif") repeat-y top right;
+     margin-top: -1em;  /* 解决IE系列的空隙问题 */
+     padding: 20px;
+}
+.round2 .footer {
+     background: url("../images/round2_left_bottom.gif") no-repeat bottom left;
+}
+.round2 .footer p {
+     background: url("../images/round2_right_bottom.gif") no-repeat bottom right;
+}
+
+/* 类别管理的表格样式 */
+.m_table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 450px;
+    text-align: center;
+}
+.m_table th {
+    background-color: #F7F3F7;
+}
+.m_table th, .m_table td{
+    border: 1px solid #CECFCE;
+    padding: 5px;
+    height: 25px;
+}
+.m_table .xuhao {
+    width: 60px;
+}
+.m_table .del {
+    width: 50px;
+}
+
+/* 文字颜色 */
+.fontcolor {
+    color: Red;
+    margin-bottom: 10px;
+}
+
+/* 类别管理页中的错误信息样式 */
+#test {
+    color: Red;
+    text-align: center;
+    margin-top: 5px;
+}
